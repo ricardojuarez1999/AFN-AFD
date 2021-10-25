@@ -1,0 +1,15 @@
+S		= {A,B,C,D,E}
+S0		= {A}
+T		= {E}
+A		= {a,b}
+F(A,a)		= {B}
+F(A,b)		= {C}
+F(B,a)		= {B}
+F(B,b)		= {D}
+F(C,a)		= {B}
+F(C,b)		= {C}
+F(D,a)		= {B}
+F(D,b)		= {E}
+F(E,a)		= {B}
+F(E,b)		= {C}
+

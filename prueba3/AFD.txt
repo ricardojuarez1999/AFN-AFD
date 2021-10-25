@@ -1,0 +1,19 @@
+S		= {A,B,C,D,E,F}
+S0		= {A}
+T		= {A,B,E,F}
+A		= {a,b,c}
+F(A,a)		= {B}
+F(A,b)		= {C}
+F(A,c)		= {D}
+F(B,a)		= {B}
+F(B,b)		= {C}
+F(B,c)		= {D}
+F(C,b)		= {E}
+F(D,c)		= {F}
+F(E,a)		= {B}
+F(E,b)		= {C}
+F(E,c)		= {D}
+F(F,a)		= {B}
+F(F,b)		= {C}
+F(F,c)		= {D}
+
